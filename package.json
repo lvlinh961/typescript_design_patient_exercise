@@ -1,0 +1,24 @@
+{
+  "name": "typescript_design_patient_exercise",
+  "version": "1.0.0",
+  "description": "Design pattern with typescript excercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "dev": "tsc && concurrently \"tsc -w\" \"nodemon ./dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvlinh961/typescript_design_patient_exercise.git"
+  },
+  "author": "lvlinh96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvlinh961/typescript_design_patient_exercise/issues"
+  },
+  "homepage": "https://github.com/lvlinh961/typescript_design_patient_exercise#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

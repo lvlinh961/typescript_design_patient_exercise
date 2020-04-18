@@ -20,5 +20,9 @@
   "homepage": "https://github.com/lvlinh961/typescript_design_patient_exercise#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "lodash": "^4.17.15"
   }
 }
